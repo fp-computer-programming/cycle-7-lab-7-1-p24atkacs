@@ -19,7 +19,7 @@ def greeting():
     print("Hello World!")
 
     # Return the docstring for the greeting function
-    return greeting.__doc__
+    return greeting.__doc__ #I used __doc__ functions bc it provides documentation for my docstring
 
 # Call the greeting function
 greeting()
